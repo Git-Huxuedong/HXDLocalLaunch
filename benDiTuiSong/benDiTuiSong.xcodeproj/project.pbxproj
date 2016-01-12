@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7835EB691BFAC06400CAE928 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835EB681BFAC06400CAE928 /* main.m */; };
+		7835EB6C1BFAC06400CAE928 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835EB6B1BFAC06400CAE928 /* AppDelegate.m */; };
+		7835EB6F1BFAC06400CAE928 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835EB6E1BFAC06400CAE928 /* ViewController.m */; };
+		7835EB721BFAC06400CAE928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7835EB701BFAC06400CAE928 /* Main.storyboard */; };
+		7835EB741BFAC06400CAE928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7835EB731BFAC06400CAE928 /* Assets.xcassets */; };
+		7835EB771BFAC06400CAE928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7835EB751BFAC06400CAE928 /* LaunchScreen.storyboard */; };
+		7835EB821BFAC06400CAE928 /* benDiTuiSongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835EB811BFAC06400CAE928 /* benDiTuiSongTests.m */; };
+		7835EB8D1BFAC06400CAE928 /* benDiTuiSongUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835EB8C1BFAC06400CAE928 /* benDiTuiSongUITests.m */; };
+		7835EB9B1BFAC08B00CAE928 /* HXDChatViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7835EB9A1BFAC08B00CAE928 /* HXDChatViewController.storyboard */; };
+		7835EB9E1BFAC0A600CAE928 /* HXDChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835EB9D1BFAC0A600CAE928 /* HXDChatViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7835EB7E1BFAC06400CAE928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7835EB5C1BFAC06400CAE928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7835EB631BFAC06400CAE928;
+			remoteInfo = benDiTuiSong;
+		};
+		7835EB891BFAC06400CAE928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7835EB5C1BFAC06400CAE928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7835EB631BFAC06400CAE928;
+			remoteInfo = benDiTuiSong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7835EB641BFAC06400CAE928 /* benDiTuiSong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = benDiTuiSong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7835EB681BFAC06400CAE928 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7835EB6A1BFAC06400CAE928 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7835EB6B1BFAC06400CAE928 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7835EB6D1BFAC06400CAE928 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7835EB6E1BFAC06400CAE928 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7835EB711BFAC06400CAE928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7835EB731BFAC06400CAE928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7835EB761BFAC06400CAE928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7835EB781BFAC06400CAE928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7835EB7D1BFAC06400CAE928 /* benDiTuiSongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = benDiTuiSongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7835EB811BFAC06400CAE928 /* benDiTuiSongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = benDiTuiSongTests.m; sourceTree = "<group>"; };
+		7835EB831BFAC06400CAE928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7835EB881BFAC06400CAE928 /* benDiTuiSongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = benDiTuiSongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7835EB8C1BFAC06400CAE928 /* benDiTuiSongUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = benDiTuiSongUITests.m; sourceTree = "<group>"; };
+		7835EB8E1BFAC06400CAE928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7835EB9A1BFAC08B00CAE928 /* HXDChatViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HXDChatViewController.storyboard; sourceTree = "<group>"; };
+		7835EB9C1BFAC0A600CAE928 /* HXDChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDChatViewController.h; sourceTree = "<group>"; };
+		7835EB9D1BFAC0A600CAE928 /* HXDChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDChatViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7835EB611BFAC06400CAE928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7835EB7A1BFAC06400CAE928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7835EB851BFAC06400CAE928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7835EB5B1BFAC06400CAE928 = {
+			isa = PBXGroup;
+			children = (
+				7835EB661BFAC06400CAE928 /* benDiTuiSong */,
+				7835EB801BFAC06400CAE928 /* benDiTuiSongTests */,
+				7835EB8B1BFAC06400CAE928 /* benDiTuiSongUITests */,
+				7835EB651BFAC06400CAE928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7835EB651BFAC06400CAE928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7835EB641BFAC06400CAE928 /* benDiTuiSong.app */,
+				7835EB7D1BFAC06400CAE928 /* benDiTuiSongTests.xctest */,
+				7835EB881BFAC06400CAE928 /* benDiTuiSongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7835EB661BFAC06400CAE928 /* benDiTuiSong */ = {
+			isa = PBXGroup;
+			children = (
+				7835EB6A1BFAC06400CAE928 /* AppDelegate.h */,
+				7835EB6B1BFAC06400CAE928 /* AppDelegate.m */,
+				7835EB6D1BFAC06400CAE928 /* ViewController.h */,
+				7835EB6E1BFAC06400CAE928 /* ViewController.m */,
+				7835EB9C1BFAC0A600CAE928 /* HXDChatViewController.h */,
+				7835EB9D1BFAC0A600CAE928 /* HXDChatViewController.m */,
+				7835EB9A1BFAC08B00CAE928 /* HXDChatViewController.storyboard */,
+				7835EB701BFAC06400CAE928 /* Main.storyboard */,
+				7835EB731BFAC06400CAE928 /* Assets.xcassets */,
+				7835EB751BFAC06400CAE928 /* LaunchScreen.storyboard */,
+				7835EB781BFAC06400CAE928 /* Info.plist */,
+				7835EB671BFAC06400CAE928 /* Supporting Files */,
+			);
+			path = benDiTuiSong;
+			sourceTree = "<group>";
+		};
+		7835EB671BFAC06400CAE928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7835EB681BFAC06400CAE928 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7835EB801BFAC06400CAE928 /* benDiTuiSongTests */ = {
+			isa = PBXGroup;
+			children = (
+				7835EB811BFAC06400CAE928 /* benDiTuiSongTests.m */,
+				7835EB831BFAC06400CAE928 /* Info.plist */,
+			);
+			path = benDiTuiSongTests;
+			sourceTree = "<group>";
+		};
+		7835EB8B1BFAC06400CAE928 /* benDiTuiSongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7835EB8C1BFAC06400CAE928 /* benDiTuiSongUITests.m */,
+				7835EB8E1BFAC06400CAE928 /* Info.plist */,
+			);
+			path = benDiTuiSongUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7835EB631BFAC06400CAE928 /* benDiTuiSong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7835EB911BFAC06400CAE928 /* Build configuration list for PBXNativeTarget "benDiTuiSong" */;
+			buildPhases = (
+				7835EB601BFAC06400CAE928 /* Sources */,
+				7835EB611BFAC06400CAE928 /* Frameworks */,
+				7835EB621BFAC06400CAE928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = benDiTuiSong;
+			productName = benDiTuiSong;
+			productReference = 7835EB641BFAC06400CAE928 /* benDiTuiSong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7835EB7C1BFAC06400CAE928 /* benDiTuiSongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7835EB941BFAC06400CAE928 /* Build configuration list for PBXNativeTarget "benDiTuiSongTests" */;
+			buildPhases = (
+				7835EB791BFAC06400CAE928 /* Sources */,
+				7835EB7A1BFAC06400CAE928 /* Frameworks */,
+				7835EB7B1BFAC06400CAE928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7835EB7F1BFAC06400CAE928 /* PBXTargetDependency */,
+			);
+			name = benDiTuiSongTests;
+			productName = benDiTuiSongTests;
+			productReference = 7835EB7D1BFAC06400CAE928 /* benDiTuiSongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7835EB871BFAC06400CAE928 /* benDiTuiSongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7835EB971BFAC06400CAE928 /* Build configuration list for PBXNativeTarget "benDiTuiSongUITests" */;
+			buildPhases = (
+				7835EB841BFAC06400CAE928 /* Sources */,
+				7835EB851BFAC06400CAE928 /* Frameworks */,
+				7835EB861BFAC06400CAE928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7835EB8A1BFAC06400CAE928 /* PBXTargetDependency */,
+			);
+			name = benDiTuiSongUITests;
+			productName = benDiTuiSongUITests;
+			productReference = 7835EB881BFAC06400CAE928 /* benDiTuiSongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7835EB5C1BFAC06400CAE928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = huxuedong;
+				TargetAttributes = {
+					7835EB631BFAC06400CAE928 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					7835EB7C1BFAC06400CAE928 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 7835EB631BFAC06400CAE928;
+					};
+					7835EB871BFAC06400CAE928 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 7835EB631BFAC06400CAE928;
+					};
+				};
+			};
+			buildConfigurationList = 7835EB5F1BFAC06400CAE928 /* Build configuration list for PBXProject "benDiTuiSong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7835EB5B1BFAC06400CAE928;
+			productRefGroup = 7835EB651BFAC06400CAE928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7835EB631BFAC06400CAE928 /* benDiTuiSong */,
+				7835EB7C1BFAC06400CAE928 /* benDiTuiSongTests */,
+				7835EB871BFAC06400CAE928 /* benDiTuiSongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7835EB621BFAC06400CAE928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7835EB9B1BFAC08B00CAE928 /* HXDChatViewController.storyboard in Resources */,
+				7835EB771BFAC06400CAE928 /* LaunchScreen.storyboard in Resources */,
+				7835EB741BFAC06400CAE928 /* Assets.xcassets in Resources */,
+				7835EB721BFAC06400CAE928 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7835EB7B1BFAC06400CAE928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7835EB861BFAC06400CAE928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7835EB601BFAC06400CAE928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7835EB6F1BFAC06400CAE928 /* ViewController.m in Sources */,
+				7835EB9E1BFAC0A600CAE928 /* HXDChatViewController.m in Sources */,
+				7835EB6C1BFAC06400CAE928 /* AppDelegate.m in Sources */,
+				7835EB691BFAC06400CAE928 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7835EB791BFAC06400CAE928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7835EB821BFAC06400CAE928 /* benDiTuiSongTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7835EB841BFAC06400CAE928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7835EB8D1BFAC06400CAE928 /* benDiTuiSongUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7835EB7F1BFAC06400CAE928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7835EB631BFAC06400CAE928 /* benDiTuiSong */;
+			targetProxy = 7835EB7E1BFAC06400CAE928 /* PBXContainerItemProxy */;
+		};
+		7835EB8A1BFAC06400CAE928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7835EB631BFAC06400CAE928 /* benDiTuiSong */;
+			targetProxy = 7835EB891BFAC06400CAE928 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7835EB701BFAC06400CAE928 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7835EB711BFAC06400CAE928 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7835EB751BFAC06400CAE928 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7835EB761BFAC06400CAE928 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7835EB8F1BFAC06400CAE928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7835EB901BFAC06400CAE928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7835EB921BFAC06400CAE928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = benDiTuiSong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huxuedong.benDiTuiSong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7835EB931BFAC06400CAE928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = benDiTuiSong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huxuedong.benDiTuiSong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7835EB951BFAC06400CAE928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = benDiTuiSongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huxuedong.benDiTuiSongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/benDiTuiSong.app/benDiTuiSong";
+			};
+			name = Debug;
+		};
+		7835EB961BFAC06400CAE928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = benDiTuiSongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huxuedong.benDiTuiSongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/benDiTuiSong.app/benDiTuiSong";
+			};
+			name = Release;
+		};
+		7835EB981BFAC06400CAE928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = benDiTuiSongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huxuedong.benDiTuiSongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = benDiTuiSong;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7835EB991BFAC06400CAE928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = benDiTuiSongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huxuedong.benDiTuiSongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = benDiTuiSong;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7835EB5F1BFAC06400CAE928 /* Build configuration list for PBXProject "benDiTuiSong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7835EB8F1BFAC06400CAE928 /* Debug */,
+				7835EB901BFAC06400CAE928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7835EB911BFAC06400CAE928 /* Build configuration list for PBXNativeTarget "benDiTuiSong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7835EB921BFAC06400CAE928 /* Debug */,
+				7835EB931BFAC06400CAE928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7835EB941BFAC06400CAE928 /* Build configuration list for PBXNativeTarget "benDiTuiSongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7835EB951BFAC06400CAE928 /* Debug */,
+				7835EB961BFAC06400CAE928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7835EB971BFAC06400CAE928 /* Build configuration list for PBXNativeTarget "benDiTuiSongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7835EB981BFAC06400CAE928 /* Debug */,
+				7835EB991BFAC06400CAE928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7835EB5C1BFAC06400CAE928 /* Project object */;
+}
